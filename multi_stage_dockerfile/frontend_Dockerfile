@@ -1,0 +1,8 @@
+FROM node AS nod
+WORKDIR /demo
+COPY . .
+RUN npm install
+RUN npm run build
+
+FROM nginx AS ng
+COPY --from=nod /demo/build /usr/share/nginx/html
