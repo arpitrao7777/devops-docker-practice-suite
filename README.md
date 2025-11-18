@@ -40,35 +40,43 @@ docker build -t frontend-multistage.
 docker run -p 8081:80 frontend-multistage
 ```
 
-**🛠️ Technologies Used**
-Docker
+---
 
-.NET 8 SDK & Runtime
+##**🛠️ Technologies Used**
 
-Node.js
+- Docker
 
-NPM
+- .NET 8 SDK & Runtime
 
-Nginx
+- Node.js
 
-Multi-stage Docker builds
+- NPM
 
-**📚 Purpose of This Repo**
+- Nginx
+
+- Multi-stage Docker builds
+
+---
+
+##**📚 Purpose of This Repo**
+
 This repository is created to:
 
-Practice Docker fundamentals
+- Practice Docker fundamentals
 
-Understand backend + frontend containerization
+- Understand backend + frontend containerization
 
-Learn multi-stage image optimization
+- Learn multi-stage image optimization
 
-Prepare for DevOps, Docker, and Kubernetes workflows
+- Prepare for DevOps, Docker, and Kubernetes workflows
 
-Improve hands-on experience with real-world Dockerfile structures
+- Improve hands-on experience with real-world Dockerfile structures
 
-**📬 Contact**
+---
+
+##**📬 Contact**
+
 Arpit Yadav
-📱 8307532971
-✉️ arpit32971@gmail.com
-
-LinkedIn: https://www.linkedin.com/in/arpit-yadav-786b1622b
+- 📱 8307532971
+- ✉️ arpit32971@gmail.com
+- LinkedIn: https://www.linkedin.com/in/arpit-yadav-786b1622b
